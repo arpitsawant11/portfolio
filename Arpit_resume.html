@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arpit Sawant - Resume</title>
+  <!-- Google Fonts for a clean, professional look -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #dbeed6;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', Arial, sans-serif;
+      min-height: 100vh;
+    }
+    .resume-container {
+      background: #f5fbe9;
+      max-width: 700px;
+      margin: 40px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+      padding: 40px 36px 32px 36px;
+      position: relative;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 18px;
+    }
+    .name {
+      font-size: 2.1rem;
+      font-weight: 600;
+      color: #2d3a2e;
+      letter-spacing: 1px;
+    }
+    .contact {
+      text-align: right;
+      font-size: 1rem;
+      color: #3b4a3e;
+      line-height: 1.5;
+    }
+    .contact a {
+      color: #3b4a3e;
+      text-decoration: none;
+    }
+    .section {
+      margin-top: 28px;
+    }
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #2d3a2e;
+      margin-bottom: 4px;
+      letter-spacing: 0.5px;
+      position: relative;
+    }
+    .section-title::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 3px;
+      background: #6fa36f;
+      margin-top: 4px;
+      border-radius: 2px;
+    }
+    .edu-list, .exp-list, .proj-list {
+      margin: 12px 0 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .edu-item, .exp-item, .proj-item {
+      margin-bottom: 14px;
+    }
+    .edu-degree, .exp-role, .proj-title {
+      font-weight: 600;
+      color: #2d3a2e;
+    }
+    .edu-school, .exp-company, .proj-desc {
+      font-style: italic;
+      color: #4b5c4b;
+      font-size: 0.98rem;
+    }
+    .edu-date, .exp-date {
+      float: right;
+      color: #6fa36f;
+      font-size: 0.97rem;
+      font-weight: 500;
+    }
+    .skills-list {
+      margin: 10px 0 0 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem 1.2rem;
+    }
+    .skill-cat {
+      font-weight: 600;
+      color: #2d3a2e;
+      margin-right: 0.5rem;
+    }
+    .cert-list {
+      margin: 10px 0 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .cert-item {
+      margin-bottom: 8px;
+    }
+    @media (max-width: 600px) {
+      .resume-container {
+        padding: 18px 6vw 18px 6vw;
+      }
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+      .contact {
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <div class="header">
+      <div class="name">Arpit Sawant</div>
+      <div class="contact">
+        9481938433<br>
+        <a href="mailto:arpitsawant11@gmail.com">arpitsawant11@gmail.com</a><br>
+        <a href="https://linkedin.com/in/arpit-sawant-932906308" target="_blank">linkedin.com/in/arpit-sawant-932906308</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Education</div>
+      <ul class="edu-list">
+        <li class="edu-item">
+          <span class="edu-degree">B.E. in Information Science and Engineering</span>
+          <span class="edu-date">2023–2026</span><br>
+          <span class="edu-school">MVJ College of Engineering, Bengaluru</span>
+        </li>
+        <li class="edu-item">
+          <span class="edu-degree">Diploma in Computer Science</span>
+          <span class="edu-date">2020–2023</span><br>
+          <span class="edu-school">Maratha Mandal Polytechnic, Belgaum</span>
+        </li>
+        <li class="edu-item">
+          <span class="edu-degree">SSLC (10th Standard)</span>
+          <span class="edu-date">2020</span><br>
+          <span class="edu-school">Bharatesh English Medium School, Belgaum</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Skills</div>
+      <ul class="skills-list">
+        <li><span class="skill-cat">Languages:</span> Java, HTML, CSS, JavaScript</li>
+        <li><span class="skill-cat">Technologies:</span> Full Stack Development, Web Development, DBMS, Cybersecurity Basics</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Experience</div>
+      <ul class="exp-list">
+        <li class="exp-item">
+          <span class="exp-role">Cybersecurity Intern</span>
+          <span class="exp-date">2023</span><br>
+          <span class="exp-company">Softmusk, Belgaum</span>
+          <ul>
+            <li>Gained hands-on experience with cybersecurity concepts and ethical hacking tools</li>
+            <li>Identified common vulnerabilities and assessed risks in simulated environments</li>
+            <li>Participated in securing sample digital infrastructures and learning defensive techniques</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Projects</div>
+      <ul class="proj-list">
+        <li class="proj-item">
+          <span class="proj-title">Infopedia – Diploma Final Year Project</span>
+          <div class="proj-desc">
+            Developed an educational platform providing structured academic content.<br>
+            Designed user-friendly interface using HTML, CSS, and JavaScript.<br>
+            Integrated backend database to manage users and learning materials.
+          </div>
+        </li>
+        <li class="proj-item">
+          <span class="proj-title">Smart Site Management – Engineering Project (Ongoing)</span>
+          <div class="proj-desc">
+            Working on a site management tool to track construction progress, materials, and workforce.<br>
+            Leveraging web technologies and DBMS for real-time monitoring and efficiency.<br>
+            Designed to bring transparency and automation into traditional site workflows.
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Certifications</div>
+      <ul class="cert-list">
+        <li class="cert-item">Internship – Softmusk: Focused on Full Stack Web Development Certificate</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
